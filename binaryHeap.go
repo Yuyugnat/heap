@@ -31,7 +31,7 @@ func right(index int) int {
 // getters
 func (heap *BinHeap[T]) GetArr() []*Node[T] {
 	return heap.arr
-}
+} 
 
 // classic heap methods
 func (heap *BinHeap[T]) GetMin() *Node[T] {

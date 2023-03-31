@@ -1,4 +1,4 @@
-package binheap
+package heap
 
 type BinHeap[T any] struct {
 	arr []*Node[T]

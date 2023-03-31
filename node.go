@@ -1,4 +1,4 @@
-package fiboheap
+package heap
 
 type Node[T any] struct {
 	value T

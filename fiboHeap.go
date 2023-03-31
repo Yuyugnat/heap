@@ -1,4 +1,4 @@
-package fiboheap
+package heap
 
 type FiboHeap[T any] struct {
 	n int

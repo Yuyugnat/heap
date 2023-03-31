@@ -1,3 +1,3 @@
-module github.com/yuyugnat/fibo-heap
+module github.com/yuyugnat/heap
 
 go 1.20

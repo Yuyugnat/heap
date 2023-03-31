@@ -28,6 +28,11 @@ func right(index int) int {
 	return 2*index + 2
 }
 
+// getters
+func (heap *BinHeap[T]) GetArr() []*Node[T] {
+	return heap.arr
+}
+
 // classic heap methods
 func (heap *BinHeap[T]) GetMin() *Node[T] {
 	return heap.arr[0]
